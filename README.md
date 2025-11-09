@@ -1,6 +1,6 @@
 # Ergonomic Office Chair: Real-Time Posture Detection System
 
-It is a real-time posture detection tool designed to help users maintain healthy posture by identifying and alerting them to poor posture. Our system offers both a Python GUI application and a web-based solution to cater to different user preferences.
+It is a real-time posture detection tool designed to help users maintain healthy posture by identifying and alerting them to poor posture. My system offers both a Python GUI application and a web-based solution to cater to different user preferences.
 
 
 ## Project Overview
