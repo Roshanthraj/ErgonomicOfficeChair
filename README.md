@@ -2,18 +2,32 @@
 
 It is a real-time posture detection tool designed to help users maintain healthy posture by identifying and alerting them to poor posture. Our system offers both a Python GUI application and a web-based solution to cater to different user preferences.
 
-## Project Overview
 
-- **Purpose**: Detect poor posture among users in real-time and provide instant feedback to promote healthier sitting habits.
-- **Technology**: Uses computer vision and machine learning for accurate posture detection
-- **Key Features**:
-  - Real-time posture analysis and alerts
-  - Visual feedback indicating good or poor posture
-  - Tracking of neck and torso angles for detailed posture assessment
-  - Available in both desktop and web formats
+## Project Overview
+A smart chair posture detection system for monitoring, logging, and improving sitting posture. Logs collected data for every frame in CSV files, analyzed via machine learning for ergonomic risk. Offers real-time feedback, tracking, reports, and notifications to promote better workplace ergonomics.
+## Purpose
+- Detect poor posture among users in real-time.
+- Provide instant feedback to promote healthier sitting habits.
+## Key Features
+- Real-time posture analysis and alerts
+- Visual feedback indicating good or poor posture
+- Tracking of neck and torso angles for detailed posture assessment
+- Available in both desktop and web formats
+## Tech Stack
+### Frontend
+- HTML, CSS, JavaScript for user interface and real-time visualization
+### Backend
+- Python for data processing, posture analysis, and report generation
+### Computer Vision & Pose Detection
+- OpenCV and MediaPipe for real-time frame processing and extraction of body keypoints
+### Machine Learning Algorithms
+- Multiple Linear Regression (MLR) for modeling posture-angle relationships
+- Random Forest classifier for posture category prediction
+### Data Handling
+- CSV files for datalogging every frame, used for feedback and analytics
+
 
 ## Applications
-
 The project contains two main applications:
 
 1. **Python GUI Application** (`/python-app`)
