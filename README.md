@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# PosturePro: Real-Time Posture Detection System
+# Ergonomic Office Chair: Real-Time Posture Detection System
 
-PosturePro is a real-time posture detection tool designed to help users maintain healthy posture by identifying and alerting them to poor posture. Our system offers both a Python GUI application and a web-based solution to cater to different user preferences.
+It is a real-time posture detection tool designed to help users maintain healthy posture by identifying and alerting them to poor posture. Our system offers both a Python GUI application and a web-based solution to cater to different user preferences.
 
 ## Project Overview
 
@@ -34,8 +33,9 @@ The project contains two main applications:
 
 - **Body Tracking**: Utilizes advanced computer vision to detect key body points like shoulders, neck, and hips
 - **Posture Analysis**: Calculates metrics such as shoulder width and neck and torso angles
-- **Feedback**: Real-time alerts are displayed for poor posture, with colors indicating alignment status
+- **Feedback**: Real-time alerts are displayed for poor posture, with colors indicating alignment status. Data analytics and prediction done to predict the upcoming posture using ml algorithms
+- 
 =======
 # ErgonomicOfficeChair
 A smart chair posture detection system for monitoring, logging, and improving sitting posture. Logs collected data for every frame in CSV files, analyzed via machine learning for ergonomic risk. Offers real-time feedback, tracking, reports, and notifications to promote better workplace ergonomics
->>>>>>> 9b7bd98259d5d47d2a650289f20898f5c76c0243
+
